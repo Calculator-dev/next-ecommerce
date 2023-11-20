@@ -1,2 +1,0 @@
-# next-ecommerce
-next-ecommerce
