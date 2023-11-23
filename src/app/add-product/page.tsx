@@ -23,6 +23,7 @@ async function addProduct(formData: FormData) {
     throw Error("Missing required fields");
   }
   //hitting server only not client side
+
   await prisma.product.create({
     data: {
       name,
